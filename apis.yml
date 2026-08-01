@@ -1,7 +1,24 @@
 aid: portf
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/portf.png
 name: PortF
-description: PortF is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: PortF is an AI-powered portfolio monitoring platform for private equity, venture capital,
+  and institutional investors. It automates investment data collection and reporting by extracting
+  qualitative and quantitative data from emails, documents, and 25+ connected systems (Excel, OneDrive,
+  SharePoint, SSO, Salesforce, FIS Global, Xero, QuickBooks, Sage, and NetSuite), then consolidates
+  financial, ESG, and impact data into a single source of truth with real-time analytics, IRR
+  benchmarking, and agentic reporting workflows. Founded by Alex Lu and headquartered in London,
+  PortF is backed by Techstars.
 url: https://raw.githubusercontent.com/api-evangelist/portf/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Portfolio Monitoring
+- Private Equity
+- Venture Capital
+- Investment Management
+- ESG
+- Fintech
+- Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,20 @@ maintainers:
 common:
 - type: Website
   url: https://portf.io/
+- type: Blog
+  url: https://portf.io/resources
+- type: PrivacyPolicy
+  url: https://portf.io/privacy
+- type: TrustCenter
+  url: https://trust.portf.io/
+- type: StatusPage
+  url: https://status.portf.io/
+- type: Login
+  url: http://app.portf.co.uk/
+- type: DomainSecurity
+  url: security/portf-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
